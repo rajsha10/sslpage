@@ -1,0 +1,41 @@
+
+#download{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    padding-bottom: 10rem;
+}
+
+.dArea{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 3rem 0;
+    gap: 3rem;
+}
+
+.dArea h3{
+    font-size: 3.5rem;
+}
+
+.dArea button{
+    font-size: 2.2rem;
+    font-weight: 700;
+    background: linear-gradient(to right,#000000 0%, #310766 90%);  
+    color: white; 
+    padding: 1.2rem 2rem;
+    border-radius: 1.5rem;
+    border: none;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    cursor: pointer;
+    transition: all 0.18s ease-in;
+}
+
+.dArea button:hover{
+    scale: 1.01;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}

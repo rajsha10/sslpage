@@ -1,0 +1,62 @@
+
+.nav{
+    background-color: #00000037;
+    height: 7rem;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    z-index: 9999;
+}
+
+.logo img{
+    width: 10rem;    
+}
+
+.navMenu ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 5rem;
+    cursor: pointer;
+}
+
+.navMenu ul li{
+    font-size: 1.8rem;
+    color: white;
+    font-weight: bold;
+}
+
+.signOptions{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+.signUp, .signIn{
+    padding: 0.9rem 1.8rem;
+    border-radius: 0.8rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transform: all 0.18s ease;
+    color: #fff;
+    font-weight: bold;
+}
+
+.signUp{
+    background-color: transparent;
+    border: solid 1px #000;
+}
+
+.signIn{
+    background-color: #BF40BF;
+    border: solid 1px #BF40BF;
+    
+}
+
+.signUp:hover, .signIn:hover{
+    border: solid 1px #fff;
+    background-color: transparent;
+}

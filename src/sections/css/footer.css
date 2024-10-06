@@ -1,0 +1,37 @@
+.footer{
+    position: fixed;
+    z-index: 9999;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    background-color: #000000e6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 10rem;
+}
+
+.footLogo img{
+    width: 7rem;
+}
+
+.socials{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    color: #fff;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.socials p, .icons a{
+    font-size: 2rem;
+}
+
+.icons a:hover{
+    cursor: pointer;
+}

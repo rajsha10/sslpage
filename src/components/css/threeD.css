@@ -1,0 +1,52 @@
+/* stylings */
+
+#threeD{
+    position: relative;
+    z-index: 9999;
+}
+
+.d3{
+    position: absolute;
+    width: 100px; /* Example size */
+    height: 100px; /* Example size */
+    transform-style: preserve-3d; /* Enable 3D space */
+    z-index: 9999;
+}
+
+#bit1{
+    left: 30rem;
+    top: -67rem;
+}
+
+#bit2{
+    right: 20rem;
+    top: -90rem;
+}
+
+#sol1{
+    width: 10rem;
+    height: 10rem;
+    left: 27rem;
+    top: 0rem;
+}
+
+#arrow{
+    width: 10rem;
+    height: 10rem;
+    left: 47rem;
+    bottom: -138rem;
+}
+
+#heart1{
+    width: 10rem;
+    height: 10rem;
+    right: 5rem;
+    bottom: -48rem;
+}
+#heart2{
+    width: 10rem;
+    height: 10rem;
+    left: 5rem;
+    bottom: -98rem;
+}
+

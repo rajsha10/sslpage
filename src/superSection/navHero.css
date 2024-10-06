@@ -1,0 +1,9 @@
+.superSection{
+    width: 100%;
+    height: 133vh;
+
+    background: url('/images/use.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

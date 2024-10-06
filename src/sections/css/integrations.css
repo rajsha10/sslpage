@@ -1,0 +1,19 @@
+.integration{
+    padding: 4rem 2rem;
+    background-color: #f0f0f0;
+    /* margin-top: 20px; */
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background: radial-gradient(circle, rgba(0,0,0,1) 10%, rgba(33,3,64,1) 90%);
+}
+
+.integration h2{
+    color: #fff;
+    font-size: 4rem;
+}
+  
