@@ -145,19 +145,19 @@
     }
     
     .infoSlides{
-        gap: 3rem;
+        gap: 2rem;
         margin-top: 1rem;
     }
     
     .twoSlides{
-        gap: 3rem;
+        gap: 2rem;
     }
     
     .slide {
-        width: 20rem;
-        height: 25rem;
+        width: 16rem;
+        height: 20rem;
         gap: 1rem;
-        padding: 2rem;
+        padding: 1.5rem;
     }
     
     .slide h3{
@@ -165,12 +165,12 @@
     }
     
     .slide img{
-        width: 15rem;
-        height: 15rem;
+        width: 13rem;
+        height: 13rem;
     }
     
     .singleSlide{
-        width: 90%;
+        width: 34rem;
         height: 30rem;
         gap: 1rem;
         padding: 2rem;
