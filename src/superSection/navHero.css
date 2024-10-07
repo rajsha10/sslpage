@@ -7,3 +7,9 @@
     background-size: cover;
     background-position: center;
 }
+
+@media (max-width: 480px) {
+    .superSection{
+        height: auto;
+    }
+}

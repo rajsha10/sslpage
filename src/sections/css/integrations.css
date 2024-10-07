@@ -17,3 +17,13 @@
     font-size: 4rem;
 }
   
+@media (max-with:480px) {
+    .integration{
+        padding: 3rem 1rem;
+    }
+    
+    .integration h2{
+        font-size: 2.5rem;
+    }
+      
+}

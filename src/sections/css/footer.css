@@ -35,3 +35,25 @@
 .icons a:hover{
     cursor: pointer;
 }
+
+@media (max-width: 480px) {
+    .footer{
+        padding: 1rem 2rem;
+    }
+    
+    .footLogo img{
+        width: 6rem;
+    }
+    
+    .socials{
+        gap: 1rem;
+    }
+    
+    .icons{
+        gap: 1rem;
+    }
+    
+    .socials p, .icons a{
+        font-size: 1.8rem;
+    }
+}

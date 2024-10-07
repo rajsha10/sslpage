@@ -120,3 +120,74 @@
     scale: 0.98;
     box-shadow: 0 5px 15px rgba(0,0,0,0.4);
 }
+
+@media (max-width: 480px) {
+    #useCase{
+        gap: 3rem;
+        padding: 2rem 0rem;
+    }
+    
+    .useInfo{
+        margin-top: 3rem;
+        gap: 1rem;
+    }
+    
+    .useInfo h1{
+        font-size: 3rem;
+    }
+    
+    .useInfo p{
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    
+    .infoSlides{
+        gap: 3rem;
+        margin-top: 1rem;
+    }
+    
+    .twoSlides{
+        gap: 3rem;
+    }
+    
+    .slide {
+        width: 20rem;
+        height: 25rem;
+        gap: 1rem;
+        padding: 2rem;
+    }
+    
+    .slide h3{
+        font-size: 1.5rem;
+    }
+    
+    .slide img{
+        width: 15rem;
+        height: 15rem;
+    }
+    
+    .singleSlide{
+        width: 90%;
+        height: 30rem;
+        gap: 1rem;
+        padding: 2rem;
+    }
+    
+    .infoButton{
+        width: 50%;
+        gap: 2rem;
+    }
+    
+    .infoButton h3{
+        font-size: 2.2rem;
+    
+    }
+    
+    .infoButton p{
+        font-size: 1.6rem;
+    }
+    
+    .infoButton button, #useCase button{
+        font-size: 1.4rem;
+    }
+}

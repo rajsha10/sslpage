@@ -18,3 +18,9 @@ html{
     opacity: 1;
     transform: translateY(0);
   }
+
+@media (max-width : 480px){
+  html{
+    font-size: 56%;
+  }
+}

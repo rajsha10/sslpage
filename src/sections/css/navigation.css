@@ -60,3 +60,30 @@
     border: solid 1px #fff;
     background-color: transparent;
 }
+
+@media (max-width: 480px){
+    .nav{
+        height: auto;
+        padding: 1rem 0;
+    }
+
+    .logo img{
+        width: 8rem;    
+    }
+
+    .navMenu ul{
+        display: none;
+    }
+
+    .navMenu ul li{
+        font-size: 1.3rem;
+    }
+
+    .signOptions{
+        gap: 2rem;
+    }
+
+    .signUp, .signIn{
+        font-size: 1.3rem;
+    }
+} 

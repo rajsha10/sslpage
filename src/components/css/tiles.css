@@ -38,3 +38,26 @@
     font-size: 1.5rem;
     margin-top: 1.4rem;
 }
+
+@media (max-width: 480px) {
+    #tileContainer{
+        gap: 3rem;
+        margin-top: 2rem;
+        grid-template-columns: repeat(2, 1fr); /* 3 equal-width columns */
+    }
+    
+    .tile{
+        width: 20rem;
+        height: 20rem;
+        padding: 2rem;
+    }
+    
+    .tile h3{
+        font-size: 2rem;
+    }
+    
+    .tile p{
+        font-size: 1.2rem;
+        margin-top: 1rem;
+    }
+}

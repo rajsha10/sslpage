@@ -50,3 +50,49 @@
     bottom: -98rem;
 }
 
+@media (max-width: 480px){
+
+    .d3{
+        width: 50px; 
+        height: 50px; 
+    }
+
+    #bit1{
+        left: 6rem;
+        top: -126rem;
+    }
+
+    #bit2{
+        right: 10rem;
+        top: -98rem;
+    }
+
+    #sol1{
+        width: 5rem;
+        height: 5rem;
+        left: 5rem;
+        top: -50rem;
+    }
+
+    #arrow{
+        width: 5rem;
+        height: 5rem;
+        left: 7rem;
+        bottom: -85rem;
+    }
+
+    #heart1{
+        width: 5rem;
+        height: 5rem;
+        right: 5rem;
+        bottom: -50rem;
+    }
+
+    #heart2{
+        width: 5rem;
+        height: 5rem;
+        left: 20rem;
+        bottom: -160rem;
+    }
+}
+
