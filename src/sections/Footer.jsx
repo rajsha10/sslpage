@@ -13,7 +13,7 @@ export default function Footer() {
         <p>@2024 Switch Social</p>
         <p>|</p>
         <div className="icons">
-          <a href="" target='_blank'>
+          <a href="https://x.com/social_dapp" target='_blank'>
             <FaXTwitter color='white' />
           </a>
           <a href="" target='_blank'>
