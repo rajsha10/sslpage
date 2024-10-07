@@ -134,7 +134,7 @@
     }
 
     .left, .right{
-        gap: 1.5rem;
+        gap: 1rem;
         width: 100%;
         flex-direction: row;
     }
@@ -145,10 +145,10 @@
     }
 
     .engagement{
-        width: 20rem;
-        height: 20rem;
-        font-size: 1.4rem;
-        padding: 1.5rem;
+        width: 16rem;
+        height: 16rem;
+        font-size: 1.3rem;
+        padding: 1.3em;
     }
     
 }
