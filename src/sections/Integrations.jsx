@@ -5,7 +5,7 @@ import './css/integrations.css';
 export default function Integrations() {
   return (
     <div className="integration">
-      <h2>Integrations Section</h2>
+      <h2>Types of Content on Switch Social</h2>
       <Tiles />
     </div>
   );

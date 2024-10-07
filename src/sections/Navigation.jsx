@@ -1,8 +1,23 @@
-import React from 'react'
-import { Link } from 'react-router-dom';
+import React, { useState } from 'react';
 import './css/navigation.css';
 
 export default function Navigation() {
+  const [walletAddress, setWalletAddress] = useState(null);
+
+  const connectWallet = async () => {
+    if (window.solana && window.solana.isPhantom) {
+      try {
+        const response = await window.solana.connect();
+        setWalletAddress(response.publicKey.toString());
+        console.log('Wallet address:', response.publicKey.toString());
+      } catch (err) {
+        console.error('Connection failed:', err);
+      }
+    } else {
+      alert('Phantom wallet not found. Please install the Phantom extension.');
+    }
+  };
+
   return (
     <nav className="nav">
       <div className="logo">
@@ -10,16 +25,19 @@ export default function Navigation() {
       </div>
       <div className="navMenu">
         <ul>
-            <li>Download</li>
-            <li>Features</li>
-            <li>Integrations</li>
-            <li>pricing</li>
+          <li>Download</li>
+          <li>Features</li>
+          <li>Integrations</li>
+          <li>Pricing</li>
         </ul>
       </div>
       <div className="signOptions">
-        <button className='signUp'>Sign Up</button>
-        <button className='signIn'>Sign In</button>
+        {walletAddress ? (
+          <button className='signIn'>Wallet: {walletAddress}</button>
+        ) : (
+          <button className='signIn' onClick={connectWallet}>Connect Phantom</button>
+        )}
       </div>
     </nav>
-  )
+  );
 }
